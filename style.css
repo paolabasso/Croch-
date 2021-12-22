@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font: 400 1rem verdana;
+  background-color: #e7e9ec;
+}
+
+.container {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+}
+
+nav .menu ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo {
+  font: 700 2rem verdana;
+}
+
+nav .menu ul li a {
+  font: 700 1rem verdana;
+}
+
+#home .container {
+  margin-left: 0;
+  margin-right: 0;
+}
