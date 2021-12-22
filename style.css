@@ -35,9 +35,17 @@ body {
 }
 
 section {
-  padding: 5rem 0;
+  padding: 10rem 0 6rem 0;
 }
 
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+h1 {
+  font: 600 4rem 'Cookie';
+}
 /* Cabeçalho */
 
 nav {
@@ -76,15 +84,49 @@ nav .menu ul li a {
 }
 
 #home .text h1 {
-  font: 600 5rem Cookie;
+  font: 600 6rem Cookie;
 }
 
 #home .container {
-  margin: 0;
+  display: flex;
 }
 
 #home .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
+}
+
+/* CROCHETEIRAS */
+
+#crocheteiras {
+  display: grid;
+}
+
+h3 {
+  font: 500 1.5rem Verdana;
+  padding-bottom: 1.5rem;
+  justify-content: center;
+}
+.cards .grid {
+  gap: 1rem;
+}
+
+.cards {
+  grid-template-columns: 1fr 1fr;
+}
+
+.card img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+
+.card {
+  padding: 3.625rem 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  text-align: center;
+  height: 30rem;
+  width: 30rem;
 }
