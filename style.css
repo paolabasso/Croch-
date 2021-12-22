@@ -12,6 +12,17 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+/*
+font-family: 'Cookie', cursive;
+*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: 400 1rem verdana;
   background-color: #e7e9ec;
@@ -23,6 +34,12 @@ body {
   margin-right: auto;
 }
 
+section {
+  padding: 5rem 0;
+}
+
+/* Cabeçalho */
+
 nav {
   display: flex;
   align-items: center;
@@ -31,20 +48,43 @@ nav {
   gap: 2rem;
 }
 
+#cabecalho {
+  background: white;
+}
+
+#cabecalho.scroll {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
 nav .menu ul {
   display: flex;
   gap: 2rem;
 }
 
 .logo {
-  font: 700 2rem verdana;
+  font: 400 3.5rem Cookie;
+  color: rgb(199, 41, 67);
 }
 
 nav .menu ul li a {
-  font: 700 1rem verdana;
+  font: 600 1rem verdana;
+}
+/* HOME */
+
+#home .imagem img {
+  border-radius: 2rem;
+}
+
+#home .text h1 {
+  font: 600 5rem Cookie;
 }
 
 #home .container {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
+}
+
+#home .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
 }
