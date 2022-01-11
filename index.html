@@ -13,6 +13,12 @@
       href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header id="cabecalho">
@@ -48,31 +54,43 @@
       <!-- Perfis do Instagram de crocheteiras -->
       <section id="crocheteiras">
         <div class="container">
-          <h1>Crocheteiras</h1>
+          <h2 class="title">Crocheteiras</h2>
           <div class="cards grid">
             <div class="card">
-              <h3>Suzana Oliveira</h3>
-              <img src="imagens/crocheteira1.jpg" alt="Foto da Crocheteira" />
+              <a href="https://www.instagram.com/">
+                <h3>Suzana Oliveira</h3>
+                <img src="imagens/crocheteira1.jpg" alt="Foto da Crocheteira" />
+              </a>
             </div>
             <div class="card">
-              <h3>Margarida Viana</h3>
-              <img src="imagens/crocheteira2.jpg" alt="Foto da Crocheteira" />
+              <a href="https://www.instagram.com/">
+                <h3>Margarida Viana</h3>
+                <img src="imagens/crocheteira2.jpg" alt="Foto da Crocheteira" />
+              </a>
             </div>
             <div class="card">
-              <h3>Helena Almeida</h3>
-              <img src="imagens/crocheteira3.jpg" alt="Foto da Crocheteira" />
+              <a href="https://www.instagram.com/">
+                <h3>Helena Almeida</h3>
+                <img src="imagens/crocheteira3.jpg" alt="Foto da Crocheteira" />
+              </a>
             </div>
             <div class="card">
-              <h3>Marina Menezes</h3>
-              <img src="imagens/crocheteira4.jpg" alt="Foto da Crocheteira" />
+              <a href="https://www.instagram.com/">
+                <h3>Marina Menezes</h3>
+                <img src="imagens/crocheteira4.jpg" alt="Foto da Crocheteira" />
+              </a>
             </div>
             <div class="card">
-              <h3>Kelly Muniz</h3>
-              <img src="imagens/crocheteira5.jpg" alt="Foto da Crocheteira" />
+              <a href="https://www.instagram.com/">
+                <h3>Kelly Muniz</h3>
+                <img src="imagens/crocheteira5.jpg" alt="Foto da Crocheteira" />
+              </a>
             </div>
             <div class="card">
-              <h3>Amanda Pereira</h3>
-              <img src="imagens/crocheteira6.jpg" alt="Foto da Crocheteira" />
+              <a href="https://www.instagram.com/">
+                <h3>Amanda Pereira</h3>
+                <img src="imagens/crocheteira6.jpg" alt="Foto da Crocheteira" />
+              </a>
             </div>
           </div>
         </div>
@@ -81,29 +99,76 @@
       <!-- Vídeos no Youtube -->
       <section id="tutoriais">
         <div class="container">
-          <h1>Tutoriais</h1>
-          <div class="videos">
+          <h2 class="title">Tutoriais</h2>
+          <div class="videos grid">
             <div class="video">
-              <h3>Nome do Canal</h3>
-
-              <video src=""></video>
+              <h3>JNY Crochê</h3>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/ZQM1GS3uDz8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="video">
-              <h3>Nome do Canal</h3>
-              <video src=""></video>
+              <h3>Wagner Reis</h3>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/dKObA3-W1U0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="video">
-              <h3>Nome do Canal</h3>
-              <video src=""></video>
+              <h3>Ione Coutinho</h3>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/MiKCwFjQA6E"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video">
+              <h3>Crochê Arte de Amar</h3>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/niQiFbTQAFY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
+        </div>
+      </section>
+      <section id="newsletter">
+        <div class="container">
+        <h4>Newsletter</h3>
+        <p>Quer receber tutoriais de crochê para iniciantes quinzenalmente?</p>
+        <br>
+        <p>Inscreva-se!</p>
+        <br>
+        <label for="e-mail">E-mail:</label>
+        <input type="email" />
+        <button>Enviar</button>
         </div>
       </section>
     </main>
 
     <footer>
       <div class="container">
-        <a class="logo">Crochetando</a>
+        <a class="logo" href="#home">Crochetando</a>
         <p>&copy; 2021 Crochetando</p>
       </div>
     </footer>
