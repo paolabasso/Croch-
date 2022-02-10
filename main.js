@@ -21,9 +21,6 @@ var cartoes = document.getElementsByClassName('card')
 
 console.log(cartoes)
 
-function entrar() {
-  alert('Deu certo!')
-}
 //cartoes.addEventListener('mouseenter', entrar)
 
 //entrar()
